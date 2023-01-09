@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "email": "akbarxoja3600@gmail.com",
+      "password": "$2a$10$EV5JC0L3FCx8EZHvr7R3A.vleL9OufNIxv3IpvzMdhoW52E/6QZZO",
+      "first_name": "MuhammadAkbar",
+      "last_name": "Ramazonov",
+      "gender": "Male",
+      "id": 1
+    },
+    {
+      "email": "ramazonov360@gmail.com",
+      "password": "$2a$10$egI/8magED8JOtpwG4GqqeHpAaPmRBB8DpqPFXtv3SsJXLt6kL1ea",
+      "first_name": "d",
+      "last_name": "Ramazonov",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "email": "benom@gmail.com",
+      "password": "$2a$10$6FpioW2T/DfexiZxrrfHEefMkE76C/LrYi/UA.Lr6GPobEDwehfgK",
+      "first_name": "benom",
+      "last_name": "benom",
+      "gender": "Male",
+      "id": 3
+    }
+  ],
+  "category": [
+    {
+      "category_name": "Samsung",
+      "id": 2
+    },
+    {
+      "category_name": "Vivo",
+      "id": 3
+    },
+    {
+      "category_name": "Iphone",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "category_name": "vivo V25 5G Sunrise",
+      "category_price": "849",
+      "category_image": "https://welectronics.com/images/stories/virtuemart/product/vivoV25gold.jpg",
+      "category_id": 3,
+      "id": 3
+    },
+    {
+      "category_name": "iPhone 11 Pro",
+      "category_price": "320",
+      "category_image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-11-pro-midnight-green-2019?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1611101526000",
+      "category_id": 4,
+      "id": 4
+    },
+    {
+      "category_name": "Samsung Galaxy A22",
+      "category_price": "220",
+      "category_image": "https://m.media-amazon.com/images/I/61l1jSNHDVL.jpg",
+      "category_id": 2,
+      "id": 5
+    }
+  ],
+  "orders": [
+    {
+      "user_id": 1,
+      "user_name": "MuhammadAkbar",
+      "user_email": "akbarxoja3600@gmail.com",
+      "items": [
+        {
+          "category_name": "iPhone",
+          "category_price": "1000",
+          "category_image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-deep-purple-220907_inline.jpg.large.jpg",
+          "category_id": 1,
+          "id": 2,
+          "quantity": 1,
+          "itemTotal": null
+        },
+        {
+          "category_name": "Samsung a22 ultra",
+          "category_price": "1200",
+          "category_image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6494/6494426_sd.jpg",
+          "category_id": 2,
+          "id": 1,
+          "quantity": 1,
+          "itemTotal": null
+        }
+      ],
+      "total_price": null,
+      "id": 1
+    },
+    {
+      "user_id": 1,
+      "user_name": "MuhammadAkbar",
+      "user_email": "akbarxoja3600@gmail.com",
+      "items": [
+        {
+          "category_name": "iPhone",
+          "category_price": "1000",
+          "category_image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-deep-purple-220907_inline.jpg.large.jpg",
+          "category_id": 1,
+          "id": 2,
+          "quantity": 2,
+          "itemTotal": null
+        }
+      ],
+      "total_price": null,
+      "id": 2
+    }
+  ]
+}
